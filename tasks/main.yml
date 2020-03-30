@@ -1,2 +1,9 @@
 ---
 # tasks file for poc_galaxy
+
+# Nginx setup.
+- name: show current folder
+  shell: pwd
+
+- name: show user
+  shell: whoami
